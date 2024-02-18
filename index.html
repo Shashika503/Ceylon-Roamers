@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceylon Roamers</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;300;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+    <!-- Animate on scroll CDN -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Local CSS File(s) -->
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <header>
+        <nav class="navbar">
+            <!-- Logo and Logo text section -->
+            <a href="#hero-section" class="navbar-brand">
+                <img src="img/logo.png" class="logo" alt="Ceylon Roamers Logo">
+                <span class="logo-text">Ceylon Roamers</span>
+            </a>
+            <ul class="links-container">
+                <li class="link-item"><a href="#travel">Travel</a></li>
+                <li class="link-item"><a href="#explore-section">Explore</a></li>
+                <!-- Removed the logo from the links-container for a better placement -->
+                <li class="link-item"><a href="#services">Services</a></li>
+                <li class="link-item"><a href="#booknow">Book Now</a></li>
+            </ul>
+        </nav>
+
+        <!-- header -->
+
+        <main class="hero-section" id="hero-section">
+
+            <div class="background">
+                <img src="img/img1.png" class="background-image" alt="hero-section image">
+
+                <!-- grid -->
+                <div class="grid-slider">
+                    <div class="grid-item hide"></div>
+                    <div class="grid-item hide"></div>
+                    <div class="grid-item hide"></div>
+                    <div class="grid-item hide"></div>
+                    <div class="grid-item hide"></div>
+                    <div class="grid-item hide"></div>
+                </div>
+
+            </div>
+
+            <div class="hero-section-content" data-aos="fade-up">
+                <h1 class="hero-section-title">Welcome to Sri Lanka</h1>
+                <p class="hero-section-sub-heading">Explore the hidden Gems in Sri lanka With Tropical</p>
+            </div>
+
+            <!-- scroll down img -->
+            <img src="img/down arrow.png" class="scroll-down-icon" alt="scroll down indicator">
+        </main>
+    </header>
+
+    <!-- explore gallery section -->
+
+    <section class="explore-section" id="explore-section">
+        <h1 class="section-title" data-aos="fade-up">Explore Sri lanka</h1>
+        <p class="section-para" data-aos="fade-up">Check out our handy Tour Packages
+            Want to pack everything into your Sri Lanka adventure but don’t have time to plan it? Take the stress out of
+            organizing your trip with one of our handy itineraries.</p>
+
+        <!-- grid -->
+
+        <div class="tours-container">
+            <div class="tour-card" data-aos="fade-up">
+                <img src="img/australia.png" class="tour-img" alt="tour-image">
+                <div class="tour-body">
+                    <h3 class="tour-name">Australia</h3>
+
+                    <button class="book-guide-btn" data-place="Australia">Book A Guide</button>
+                    <!-- Guide Details Div -->
+                    <div class="guide-details" style="display:none;">
+                        <p class="guide-name">Guide Name: John Doe</p>
+                        <p class="guide-expertise">Expertise: Wildlife & Nature</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card" data-aos="fade-up">
+                <img src="img/maldives.png" class="tour-img" alt="tour-image">
+                <div class="tour-body">
+                    <h3 class="tour-name">Maldives</h3>
+                    <button class="book-guide-btn" data-place="maldives">Book A Guide</button>
+                    <!-- Guide Details Div -->
+                    <div class="guide-details" style="display:none;">
+                        <p class="guide-name">Guide Name: John Doe</p>
+                        <p class="guide-expertise">Expertise: Wildlife & Nature</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card" data-aos="fade-up">
+                <img src="img/paris.png" class="tour-img" alt="tour-image">
+                <div class="tour-body">
+                    <h3 class="tour-name">Paris</h3>
+                    <button class="book-guide-btn" data-place="paris">Book A Guide</button>
+                    <!-- Guide Details Div -->
+                    <div class="guide-details" style="display:none;">
+                        <p class="guide-name">Guide Name: John Doe</p>
+                        <p class="guide-expertise">Expertise: Wildlife & Nature</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card" data-aos="fade-up">
+                <img src="img/dubai.png" class="tour-img" alt="tour-image">
+                <div class="tour-body">
+                    <h3 class="tour-name">Dubai</h3>
+                    <button class="book-guide-btn" data-place="dubai">Book A Guide</button>
+                    <!-- Guide Details Div -->
+                    <div class="guide-details" style="display:none;">
+                        <p class="guide-name">Guide Name: John Doe</p>
+                        <p class="guide-expertise">Expertise: Wildlife & Nature</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card" data-aos="fade-up">
+                <img src="img/india.png" class="tour-img" alt="tour-image">
+                <div class="tour-body">
+                    <h3 class="tour-name">India</h3>
+                    <button class="book-guide-btn" data-place="india">Book A Guide</button>
+                    <!-- Guide Details Div -->
+                    <div class="guide-details" style="display:none;">
+                        <p class="guide-name">Guide Name: John Doe</p>
+                        <p class="guide-expertise">Expertise: Wildlife & Nature</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tour-card" data-aos="fade-up">
+                <img src="img/italy.png" class="tour-img" alt="tour-image">
+                <div class="tour-body">
+                    <h3 class="tour-name">Italy</h3>
+                    <button class="book-guide-btn" data-place="italy">Book A Guide</button>
+                   <!-- Guide Details Div -->
+                   <div class="guide-details" style="display:none;">
+                    <p class="guide-name">Guide Name: John Doe</p>
+                    <p class="guide-expertise">Expertise: Wildlife & Nature</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+
+    <section class="services-section" id="services">
+        <h1 class="section-title" data-aos="fade-up">NEED TO PLAN YOUR CUSTOMIZED TOUR ?</h1>
+        <p class="section-para" data-aos="fade-up">
+
+            Plan your perfect holiday with us. We will guide you to discover the things you love to see and do, the
+            types of places in which you prefer to stay and how much you want to travel around Sri Lanka </p>
+
+        <!-- services grid -->
+        <div class="serives-grid">
+            <div class="service-card" data-aos="fade-up">
+                <div class="circle"></div>
+                <i class="fa-solid fa-earth-americas card-icon"></i>
+                <p class="service-text">We are based all over the world</p>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <div class="circle"></div>
+                <i class="fa-solid fa-coins card-icon"></i>
+                <p class="service-text">Travel the World,Without thinking</p>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <div class="circle"></div>
+                <i class="fa-solid fa-book-open card-icon"></i>
+                <p class="service-text">Get to know about local cultures</p>
+            </div>
+            <div class="service-card" data-aos="fade-up">
+                <div class="circle"></div>
+                <i class="fa-solid fa-person-snowboarding card-icon"></i>
+                <p class="service-text">Have you best experience</p>
+            </div>
+        </div>
+
+        <div class="bg-circle"></div>
+
+        <div class="travel-grid" id="travel">
+            <img src="img/img1.png" data-aos="fade-up" alt="">
+            <img src="img/img2.png" data-aos="fade-up" alt="">
+            <img src="img/img3.png" data-aos="fade-up" alt="">
+            <img src="img/img4.png" data-aos="fade-up" alt="">
+            <img src="img/img5.png" data-aos="fade-up" alt="">
+            <img src="img/img6.png" data-aos="fade-up" alt="">
+            <img src="img/australia.png" data-aos="fade-up" alt="">
+            <img src="img/dubai.png" data-aos="fade-up" alt="">
+            <img src="img/maldives.png" data-aos="fade-up" alt="">
+            <img src="img/paris.png" data-aos="fade-up" alt="">
+            <img src="img/india.png" data-aos="fade-up" alt="">
+            <img src="img/italy.png" data-aos="fade-up" alt="">
+        </div>
+
+    </section>
+
+    <!-- contact section -->
+    <section class="book-section" id="booknow">
+        <div class="book-content" data-aos="fade-up">
+            <h1 class="book-now-title">Travel Around</h1>
+            <p class="book-now-text">Airport Pickup & Dropoff
+                We provide Airport pick up, Airport drop off and point to point transfers within the country.
+
+                We’re more than just a car or a van and we aim to provide service like no other.</p>
+
+            <button class="book-now">book a Taxi</button>
+        </div>
+        <div class="bg-circle-2"></div>
+        <img src="img/book.png" data-aos="fade-up" class="book-now-img" alt="">
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+        <img src="img/logo.png" class="footer-logo" alt="">
+        <div class="footer-text">
+            <p>Travel the world, on this holiday</p>
+            <p>Email - support@travel.com</p>
+            <p>Phone - 011 776655, 0776644567</p>
+        </div>
+        <div class="footer-text">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+
+        <p class="copyright-line">Created By DevKahtz Owned By Shashika Kahatapitiya ❤️</p>
+    </footer>
+
+    <!-- animate on scoll JS CDN -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Local JS File(s) -->
+
+    <!-- Custom Confirmation Modal -->
+    <div id="confirmationModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Confirm Booking</h2>
+            <p id="confirmText">Do you want to book a guide for this place?</p>
+            <button id="confirmBtn">Confirm</button>
+            <button id="cancelBtn">Cancel</button>
+
+            <!-- Add this inside your modal-content div -->
+            <div id="confirmationMessage" style="display:none;">
+                <h3>Booking Confirmed!</h3>
+                <p>Your guide has been booked successfully.</p>
+                <button id="closeBtn">Close</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
